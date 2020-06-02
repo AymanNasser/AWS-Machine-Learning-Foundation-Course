@@ -7,7 +7,8 @@ readable, simple, and concise. A characteristic of production quality code that 
 ## MODULAR: 
 logically broken up into functions and modules. Also an important characteristic of production quality code that makes your code more organized, efficient, and reusable.
 
-## MODULE: a file. Modules allow code to be reused by encapsulating them into files that can be imported into other files.
+## MODULE: 
+a file. Modules allow code to be reused by encapsulating them into files that can be imported into other files.
 
 # Refactoring Code
 - REFACTORING: restructuring your code to improve its internal structure, without changing its external functionality. This gives you a chance to clean and modularize your program after you've got it working.
@@ -26,8 +27,7 @@ logically broken up into functions and modules. Also an important characteristic
 - Docstrings - module and function level **Docstrings are surrounded by triple quotes**
 ## Ex. of Multi-line docstring 
 ```
-
-	"""Calculate the population density of an area.
+"""Calculate the population density of an area.
 
     Args:
     population: int. The population of the area
@@ -37,7 +37,6 @@ logically broken up into functions and modules. Also an important characteristic
     Returns:
     population_density: population/land_area. The population density of a 
     particular area.
-    """
-
+"""
 ```
 - Project Documentation - project level such as README.md files
